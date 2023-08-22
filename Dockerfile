@@ -1,6 +1,6 @@
-FROM RepthonArabic/Repthon:slim-buster
+FROM zzzdevo/IQUSER:slim-buster
 
-RUN git clone https://github.com/RepthonArabic/Repthon.git /root/zthon
+RUN git clone https://github.com/zzzdevo/IQUSER.git /root/zthon
 
 WORKDIR /root/zthon
 
