@@ -1,6 +1,6 @@
-FROM zzzdevo/IQUSER:slim-buster
+FROM zzzdevo/IQUSERBOT:slim-buster
 
-RUN git clone https://github.com/zzzdevo/IQUSER.git /root/zthon
+RUN git clone https://github.com/zzzdevo/IQUSERBOT.git /root/zthon
 
 WORKDIR /root/zthon
 
